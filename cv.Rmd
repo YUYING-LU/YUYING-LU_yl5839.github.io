@@ -1,27 +1,222 @@
 ---
-title: "My awesome website"
+title: "CV"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
+# EDUCATION
 
-# Here are some plots
+<table width="100%">
+<tr>
+    <td><strong>Shanghai Jiao Tong University (SJTU), Shanghai, China</strong></td>
+    <td style="text-align: right;">Sept. 2020 - Jun. 2024</strong></td>
+</tr>
+</table>
 
-You can make plots in the same way as always.
+Bachelor in Mathematics and Applied Mathematics (Wu Wenjun Program)  
 
-```{r}
-library(tidyverse)
 
-df = tibble(
-  x = rnorm(100, 2, 5),
-  y = 1 + 2 * x - .5 * x ^ 2 + rnorm(100)
-)
+<table width="100%">
+<tr>
+    <td><strong>Columbia University, New York, USA</strong></td>
+    <td style="text-align: right;">Sept. 2024 - Now</strong></td>
+</tr>
+</table>
 
-df |> 
-  ggplot(aes(x = x, y = y)) +
-  geom_point()
+Doctor of Philosophy in Biostatistics
 
-```
 
+# RESEARCH EXPERIENCE
+
+
+<table width="100%">
+<tr>
+    <td><strong>Statistics, McGill University | Advisors: Archer Yi Yang & Jun Ding</strong></td>
+    <td style="text-align: right;">Jul. 2023 - Oct. 2023</strong></td>
+<tr>
+    <td><strong>Undergraduate Research Intern</td>
+    <td style="text-align: right;">Quebec, Canada </strong></td>
+</tr>
+</table>
+
+- Employed a fusion of a graph-based neural network model and a conditional autoregressive model to significantly elevate the accuracy and effectiveness of spatial domain identification.
+- Curated two spatial gene expression datasets along with their respective scRNA-seq data. Proficiently utilized Python and R programming languages to manipulate, analyze, and derive insights from the collected datasets.
+- Actively involved in preparing a scholarly paper based on the findings and methodologies used in the spatial domain identification enhancement project.
+
+
+<table width="100%">
+<tr>
+    <td><strong>Biostatistics, Harvard University | Advisors: Rui Duan & Tian Gu (Columbia)</strong></td>
+    <td style="text-align: right;">Apr. 2023 - Sept. 2023</strong></td>
+<tr>
+    <td><strong>Undergraduate Research Intern</td>
+    <td style="text-align: right;">Remote</strong></td>
+</tr>
+</table>
+
+- Spearheaded the improvement of genetic risk prediction models for underrepresented populations by developing and implementing the federated semi-supervised transfer learning (FEST) method. This innovation showcased remarkable efficacy in both simulated and real-world scenarios.
+- Executed the FEST method and four alternative approaches using R programming. Conducted rigorous testing of these methodologies on simulated and real-world datasets to assess performance and applicability.
+- Submitted a paper as the primary author to the esteemed journal *Statistics in Biosciences (SIBS)*, encapsulating the findings, methodologies, and outcomes derived from the application of the FEST method in genetic risk prediction for underrepresented populations.
+
+
+<table width="100%">
+<tr>
+    <td><strong>Mathematics, Shanghai Jiao Tong University | Advisor: Zhenli Xu</strong></td>
+    <td style="text-align: right;">Dec. 2021 - Dec. 2022</strong></td>
+<tr>
+    <td><strong>Participation in Research Program (PRP)</td>
+    <td style="text-align: right;">Shanghai, China  </strong></td>
+</tr>
+</table>
+
+- Innovated the existing mathematical model to improve the computation of energy harvesting capabilities in double-layer capacitors.
+- Emphasized the variation in dielectric coefficient, resulting in computation outcomes aligning closely with theoretical expectations and empirical experiments.
+- Orchestrated calculation tasks on Linux, executing over a hundred different settings to determine electrode charge density. Utilized Python for comprehensive analysis and visualization of total energy storage within the capacitors based on the derived calculation results.
+- Contributed to a 2,000-word final report in English, detailing the project's findings and outcomes. Delivered a comprehensive oral presentation during a sharing session, summarizing the research's key elements, outcomes, and significance.
+
+# PROJECTS
+
+<table width="100%">
+<tr>
+    <td><strong>School-Enterprise Joint Innovation and Entrepreneurship Program</strong></td>
+    <td style="text-align: right;">Apr. 2022 - May. 2023</strong></td>
+<tr>
+    <td><strong>Leader (4 other members)</td>
+    <td style="text-align: right;">   </strong></td>
+</tr>
+</table>
+
+- Collaborated with Shanghai Jiao Tong University and Kafang Technology Company to develop an innovative inter-period and inter-variety futures arbitrage program.
+- Conducted comprehensive Cointegration Tests to identify futures varieties maintaining long-term price equilibrium.
+- Employed Bollinger Bands and a defined Price-Spread factor to meticulously devise and execute arbitrage strategies using Python.
+- Recognized as a recipient of the *National Innovation and Entrepreneurship Project* for college students.
+
+
+<table width="100%">
+<tr>
+    <td><strong>Statistical Learning Course Project</strong></td>
+    <td style="text-align: right;">May. 2023</strong></td>
+<tr>
+    <td><strong>Member (1 other member)</td>
+    <td style="text-align: right;">   </strong></td>
+</tr>
+</table>
+
+- Employed four statistical learning methods in R to create stroke risk prediction models utilizing the Stroke Prediction Dataset sourced from Kaggle.
+- Evaluated model performance rigorously via 5-fold cross-validation.
+- Applied strategic oversampling techniques, including the Random Over-Sampling Examples (ROSE) and Synthetic Minority Over-sampling Technique (SMOTE) methods, to address the minority class imbalance.
+- Re-engineered prediction models based on the oversampled datasets, resulting in enhanced recall and F1-scores for each model.
+
+<table width="100%">
+<tr>
+    <td><strong>Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)</strong></td>
+    <td style="text-align: right;">Sept. 2021</strong></td>
+<tr>
+    <td><strong>Leader (2 other members)</td>
+    <td style="text-align: right;">   </strong></td>
+</tr>
+</table>
+
+- Orchestrated the ordering and transportation plan for raw materials from 402 diverse suppliers, adhering to stringent constraints.
+- Applied the Entropy Weight method and Analytic Hierarchy Process to discern the top 50 pivotal suppliers.
+- Implemented a hybrid approach utilizing Greedy Algorithm and Simulated Annealing in MATLAB, devising an optimal and cost-effective ordering plan while minimizing supplier count.
+
+# EXTRACURRICULAR EXPERIENCE
+
+<table width="100%">
+<tr>
+    <td><strong>Rongchang Talent Students Program, Shanghai Jiao Tong University</strong></td>
+    <td style="text-align: right;">May. 2021 - May 2024</strong></td>
+<tr>
+    <td><strong>Chief Monitor (2022-2023) & Member (total 45)</td>
+    <td style="text-align: right;"> Shanghai, China  </strong></td>
+</tr>
+</table>
+
+- Joined a school-wide program that admits 45 exceptional students annually, facilitating their comprehensive development over a three-year period.
+- Demonstrated leadership as a monitor, organizing diverse activities including professional lectures, member seminars, and sports events, honing organizational and coordination skills.
+- Engaged actively as a member, collaborating with peers from diverse majors within the program, participating in lectures, and gaining valuable insights through practical experiences, fostering a broadened perspective.
+
+
+<table width="100%">
+<tr>
+    <td><strong>Summer Social Practice Activity, Shanghai Jiao Tong University</strong></td>
+    <td style="text-align: right;">Jul. 2021</strong></td>
+<tr>
+    <td><strong>Organizer (total 8) & Member (total 40)</td>
+    <td style="text-align: right;"> Eryuan Town, Yunnan, China    </strong></td>
+</tr>
+</table>
+
+- Orchestrated visits to 5 villages, 4 local companies, 4 underprivileged families, and engaged with local government officials to conduct comprehensive research.
+- Collaborated on composing a 100,000-word report in Chinese, meticulously analyzing the developmental landscape of local industries.
+- Spearheaded a clothing fundraiser initiative upon returning to Shanghai, organizing logistics and sending donations to a primary school in Eryuan Town, showcasing commitment to philanthropy and community support.
+
+
+<table width="100%">
+<tr>
+    <td><strong>Student Union, School of Mathematical Sciences, Shanghai Jiao Tong University</strong></td>
+    <td style="text-align: right;">Feb. 2021 - Jul. 2022</strong></td>
+<tr>
+    <td><strong>Member</td>
+    <td style="text-align: right;"> Shanghai, China   </strong></td>
+</tr>
+</table>
+
+- Contributed to organizing 3 school-level and 2 department-level activities, fostering student interaction and enhancing their extracurricular experiences.
+- Developed valuable event organization and team collaboration skills, ensuring effective execution and successful coordination of activities.
+
+# CORE COMPETENCIES
+
+- **Programming Languages:** R, Python, MATLAB
+- **Professional Advantages:** Statistical Analysis, Mathematical Aptitude, Quantitative Skills
+- **Collaboration and Teamwork:** Leadership Skills, Communication Skills, Adaptability
+
+# RESEARCH INTERESTS
+
+Transfer Learning; Semi-supervised Learning; Electronic Health Records (EHRs); Precision Medicine
+
+# FELLOWSHIPS & GRANTS
+
+<table width="100%">
+<tr>
+    <td>Summer Research Funding from Mitacs</strong></td>
+    <td style="text-align: right;">2023 </strong></td>
+<tr>
+    <td>Huatai Securities Technology Scholarship</td>
+    <td style="text-align: right;"> 2022 & 2023     </strong></td>
+<tr>
+    <td>Excellent Undergraduate Scholarship, Shanghai Jiao Tong University</td>
+    <td style="text-align: right;"> 2021 & 2022 & 2023  </strong></td>
+<tr>
+    <td>Wu Wenjun Scholarship </strong></td>
+    <td style="text-align: right;">2021 </strong></td>
+</tr>
+    <td>Weichai Power Scholarship</td>
+    <td style="text-align: right;"> 2021 </strong></td>
+</tr>
+</table>
+
+
+# HONORS & AWARDS
+
+
+<table width="100%">
+<tr>
+    <td>Excellent Monitor of Shanghai Jiao Tong University</strong></td>
+    <td style="text-align: right;">2023 </strong></td>
+<tr>
+    <td>Second Prize in National College Students Mathematics Competition</td>
+    <td style="text-align: right;"> 2021     </strong></td>
+</tr>
+    <td>Merit Student of Shanghai Jiao Tong University</td>
+    <td style="text-align: right;"> 2021 </strong></td>
+</tr>
+   
+</table>
+
+# PUBLICATION
+
+**Yuying Lu**, Tian Gu & Rui Duan. [Enhancing Genetic Risk Prediction through Federated Semi-Supervised Transfer Learning with Inaccurate Electronic Health Record Data](https://doi.org/10.1007/s12561-024-09449-2). 22 April 2024, *Statistics in Biosciences (SIBS)*. 
