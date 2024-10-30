@@ -1,26 +1,20 @@
 ---
-title: "Yuying Lu's Personal Website"
+title: "Hello!"
 output: 
   html_document:
-    toc: true
+    # toc: true
     toc_float: true
 ---
 
-# This is Yuying's awesome website
+Welcome to my website! I'm Yuying Lu and this is me.
 
+<img src="image/self_image.jpg" style="width:80%">.  
 
-Sometimes I use [google](https://www.google.com/) to so data science when I'm stuck.
+I love travel and this is a photo taken in Quebec City in Canada. One of my hobbies is photography and I enjoy taking pictures of beautiful scenery in different places. If you're interested in sharing your experience in travel or photography with me, you can contact me via my email on the navigation bar.
 
-This is a picture of me
+This website contains other two pages:
 
-![](image/fig.jpeg)
+- **CV page:** it briefly summarizes my academic and professional experience, helping people know more about my academic background. 
+- **Dashboard:** it shows three different types of plots based on data NY NOAA loaded from package `p8105.datasets`.
+ 
 
-<img src="image/fig.jpeg" style="width:75%">.  
-
-
-
-If you'd like to learn more about this website, visit [this page](about.html)
-
-
-
-NOW I CAN PUT THE STUFF ON THE INTERNET.
