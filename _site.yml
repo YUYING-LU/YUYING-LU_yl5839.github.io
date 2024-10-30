@@ -1,0 +1,18 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Yuying Lu's Personal Website"
+  right:
+    - text: "Research"
+      href: research.html
+    - text: "CV"
+      href: cv.html
+    - text: "Dashboard"
+      href: dashboard.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<yl5839@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/YUYING-LU/
+output:
+  html_document:
+    theme: sandstone

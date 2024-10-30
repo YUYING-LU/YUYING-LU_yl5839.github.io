@@ -1,0 +1,95 @@
+---
+title: "Dashboard!!"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+
+```{r}
+data("ny_noaa")
+df = ny_noaa |> 
+  drop_na() |> 
+  filter (snow >= 0) |> 
+  mutate(
+    tmin = as.numeric(tmin),
+    tmax = as.numeric(tmax))
+```
+
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart A
+
+
+```{r}
+df |> mutate(year = year(date)) |> 
+  filter((id == "USC00306184") & (year %in% c(1995:2000))) |> 
+  mutate(year = as.factor(year)) |> 
+  plot_ly(
+    x = ~year, y = ~tmax, color = ~as.factor(year),
+    type = "box") |> 
+  layout(title = "The Maximun Temperature in USC00306184 from 1995 to 2000",
+         legend = list(
+          orientation = "h",      
+          x = 0.5,                
+          xanchor = "center",
+          y = -0.2              
+        ))
+
+```
+
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+df |> 
+  filter(
+    (id == "USC00306184") & (year(date) %in% 2000)) |> 
+  mutate(
+    text_label = 
+           str_c("Date: ", date, 
+                 "\nMaximum Tempterature: ", tmax, 
+                 "\nMinimum Tempterature: ", tmin)) |> 
+  plot_ly(
+    x = ~tmin, y = ~tmax, text = ~text_label,
+    type = "scatter", mode = "markers", alpha = .5
+  )|> 
+  layout(title = "Tmax v.s. Tmin in USC00306184 in year 2000")
+
+```
+
+### Chart C
+
+```{r}
+df |> 
+  filter((year(date) == 2000) & (snow >0)) |> 
+  count(id) |> 
+  mutate(id = fct_reorder(id,n)) |> 
+  plot_ly(
+    x = ~id, y = ~n,
+    type = "bar") |> 
+  layout(title = "The Number of Snowy Day in Different Regions in 2000")
+
+```
+
+
+
+```{r}
+
+# rmarkdown::render("dashboard.Rmd", output_format = "flexdashboard::flex_dashboard")
+```
+

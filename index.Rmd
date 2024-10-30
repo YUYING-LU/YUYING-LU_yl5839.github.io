@@ -1,0 +1,26 @@
+---
+title: "Yuying Lu's Personal Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Yuying's awesome website
+
+
+Sometimes I use [google](https://www.google.com/) to so data science when I'm stuck.
+
+This is a picture of me
+
+![](image/fig.jpeg)
+
+<img src="image/fig.jpeg" style="width:75%">.  
+
+
+
+If you'd like to learn more about this website, visit [this page](about.html)
+
+
+
+NOW I CAN PUT THE STUFF ON THE INTERNET.
